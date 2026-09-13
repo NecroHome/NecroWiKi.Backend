@@ -6,7 +6,7 @@ using System.Text;
 
 namespace NecroWiKi.Application.Models.Database
 {
-    [Table("EXAMPLE")]
+    [Table("EXAMPLE_DATABASE")]
     public class ExampleModel
     {
         [Key]
