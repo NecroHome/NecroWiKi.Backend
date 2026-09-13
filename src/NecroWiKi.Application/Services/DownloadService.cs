@@ -9,7 +9,7 @@ namespace NecroWiKi.Application.Services
     {
         public Task<Stream> DownloadGame(string gameName)
         {
-            string filePath = Path.Combine("games", $"{gameName}.zip");
+            string filePath = Path.Combine("/games", $"{gameName}.zip");
 
             if (!File.Exists(filePath))
             {
